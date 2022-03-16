@@ -41,7 +41,7 @@ public class Main {
                     System.out.println("-----------------------");
                     break;
                 case 3:
-                    System.out.println("Tambahkan data di awal list? (y/n)");
+                    System.out.println("Hapus data di awal list? (y/n)");
                     String pilihan1 = input.next();
                     if (pilihan1.contains("y")) {
                         linkedList.removeFromFront();
