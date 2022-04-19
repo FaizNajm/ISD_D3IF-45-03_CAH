@@ -83,9 +83,11 @@ kalau kita lihat proses method `insert(BTNode node, E data)` :
           return node;
       }
   ```
+  
   saat height dari binary tree adalah 3 maka pointer `left` dan `right` dari root bukan sama dengan `null`,  
   berarti else atau `node.right = insert(node.right, data = 8)` dijalankan, sehingga 8 merupakan child dari 5,
   dan karena pointer `left` dari 5 adalah `null` maka 8 disimpan dalam pointer `left`
+  
   ---
 
 ### penjelasan traversal preorder, inorder, dan postorder
